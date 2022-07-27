@@ -1,6 +1,6 @@
 # fastapi-graphene-example
 
-A simple fastapi and graphene example, using python
+A simple fastapi and graphene example using python
 
 Routes:
 - /graphql: GraphQL endpoint
