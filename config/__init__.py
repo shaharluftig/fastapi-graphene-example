@@ -15,4 +15,4 @@ class DevConfig(DefaultConfig):
     port = 8080
 
 
-config = DevConfig() if ENV == "dev" else ProdConfig()
+config = ProdConfig if ENV == "prod" else DevConfig()

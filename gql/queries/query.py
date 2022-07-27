@@ -3,7 +3,7 @@ from typing import List
 import graphene
 from graphene import ObjectType, Field, String, Int
 
-from graphql.queries.student import Student
+from gql.queries.student import Student
 
 
 class Query(ObjectType):
